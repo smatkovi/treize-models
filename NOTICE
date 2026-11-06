@@ -18,3 +18,8 @@ The ear (release ear-v1) is Cnam-LMSSC/wav2vec2-french-phonemizer
 (https://huggingface.co/Cnam-LMSSC/wav2vec2-french-phonemizer, MIT licence,
 a fine-tune of facebook/wav2vec2-base-fr-voxpopuli-v2 on Common Voice 13
 French), exported to ONNX and quantised to int8 without other changes.
+
+The voice (release voice-v1) is fr_FR-siwis-medium from rhasspy/piper-voices
+(https://huggingface.co/rhasspy/piper-voices), a Piper (MIT) VITS voice
+trained on the SIWIS French speech database (CC-BY 4.0,
+https://datashare.is.ed.ac.uk/handle/10283/2353), unchanged.
