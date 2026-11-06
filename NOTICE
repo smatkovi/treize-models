@@ -1,0 +1,15 @@
+This repository redistributes a quantised build of Gemma 4 E2B:
+
+  gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf
+  from https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF (Unsloth),
+  quantised from https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-unquantized (Google),
+  itself the quantisation-aware-trained version of https://huggingface.co/google/gemma-4-E2B-it.
+
+Gemma 4 is released by Google under the Apache License, Version 2.0
+(https://ai.google.dev/gemma/docs/gemma_4_license); the quantised files by
+Unsloth carry the same licence. The file here is the unmodified GGUF from
+Unsloth, only split into two parts with llama.cpp's gguf-split so that each
+part stays under GitHub's release-asset limit; the first part opens the
+whole model.
+
+Copyright for the model weights: Google LLC. Quantisation: Unsloth.
