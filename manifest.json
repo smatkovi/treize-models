@@ -78,5 +78,45 @@
       "license": "CC-BY-4.0 (dataset), MIT (Piper)",
       "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/fr/fr_FR/siwis/medium"
     }
+  ],
+  "stts": [
+    {
+      "name": "ggml-base-q5_1",
+      "title": "Whisper base (q5_1)",
+      "rank": 1,
+      "min_ram_mb": 1500,
+      "size": 59707625,
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "urls": [
+        "https://github.com/smatkovi/treize-models/releases/download/stt-v1/ggml-base-q5_1.bin"
+      ],
+      "sizes": [
+        59707625
+      ],
+      "sha256s": [
+        "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898"
+      ],
+      "license": "MIT",
+      "source": "https://huggingface.co/ggerganov/whisper.cpp"
+    },
+    {
+      "name": "ggml-small-q5_1",
+      "title": "Whisper small (q5_1)",
+      "rank": 2,
+      "min_ram_mb": 1500,
+      "size": 190085487,
+      "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+      "urls": [
+        "https://github.com/smatkovi/treize-models/releases/download/stt-v1/ggml-small-q5_1.bin"
+      ],
+      "sizes": [
+        190085487
+      ],
+      "sha256s": [
+        "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb"
+      ],
+      "license": "MIT",
+      "source": "https://huggingface.co/ggerganov/whisper.cpp"
+    }
   ]
 }

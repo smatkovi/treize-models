@@ -23,3 +23,7 @@ The voice (release voice-v1) is fr_FR-siwis-medium from rhasspy/piper-voices
 (https://huggingface.co/rhasspy/piper-voices), a Piper (MIT) VITS voice
 trained on the SIWIS French speech database (CC-BY 4.0,
 https://datashare.is.ed.ac.uk/handle/10283/2353), unchanged.
+
+Speech to text (release stt-v1): Whisper base and small by OpenAI (MIT), as
+the q5_1 ggml conversions from https://huggingface.co/ggerganov/whisper.cpp,
+unchanged.

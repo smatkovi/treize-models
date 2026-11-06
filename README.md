@@ -22,11 +22,13 @@ finds the second. To get the original single file back:
 | French phonemizer, wav2vec2 base, int8 (release `ear-v1`) | 2 files | 91 MB | any phone | MIT |
 
 | French voice fr_FR-siwis-medium for Piper (release `voice-v1`) | 2 files | 60 MB | any phone | CC-BY 4.0 |
+| Whisper base q5_1, speech to text (release `stt-v1`; small as rank 2) | 1 file | 60 MB | any phone | MIT |
 
 The second row is "the ear": the phoneme recogniser behind the pronunciation
 check, listed under `ears` in the manifest; the third is "the voice", the
-Piper model that reads the sentences, under `voices`. Both are fetched the
-same way as the language model.
+Piper model that reads the sentences, under `voices`; the fourth is the
+speech recogniser of the chat, under `stts`. All are fetched the same way
+as the language model.
 
 ## manifest.json
 
