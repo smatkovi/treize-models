@@ -19,6 +19,11 @@ finds the second. To get the original single file back:
 
     llama-gguf-split --merge gemma-4-E2B-it-qat-UD-Q4_K_XL-00001-of-00002.gguf gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf
 
+| French phonemizer, wav2vec2 base, int8 (release `ear-v1`) | 2 files | 91 MB | any phone | MIT |
+
+The second row is "the ear": the phoneme recogniser behind the pronunciation
+check, listed under `ears` in the manifest and fetched the same way.
+
 ## manifest.json
 
 ```

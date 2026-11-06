@@ -30,5 +30,29 @@
       "source": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-GGUF",
       "base": "https://huggingface.co/google/gemma-4-E2B-it"
     }
+  ],
+  "ears": [
+    {
+      "name": "phonemizer-int8",
+      "title": "French phonemizer (wav2vec2 base, int8)",
+      "rank": 1,
+      "min_ram_mb": 1500,
+      "size": 95215552,
+      "sha256": "a56e5092361fa79da046df59b6c2ada0427cf64e4b45d0fc64d3430917ef548e",
+      "urls": [
+        "https://github.com/smatkovi/treize-models/releases/download/ear-v1/phonemizer-int8.onnx",
+        "https://github.com/smatkovi/treize-models/releases/download/ear-v1/vocab.json"
+      ],
+      "sizes": [
+        95214991,
+        561
+      ],
+      "sha256s": [
+        "a56e5092361fa79da046df59b6c2ada0427cf64e4b45d0fc64d3430917ef548e",
+        "00700d689b470bcf0ddb4e71d0977cc82194d7f471127d4c799e48d92a8a551e"
+      ],
+      "license": "MIT",
+      "source": "https://huggingface.co/Cnam-LMSSC/wav2vec2-french-phonemizer"
+    }
   ]
 }

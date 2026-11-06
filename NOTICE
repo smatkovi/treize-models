@@ -13,3 +13,8 @@ part stays under GitHub's release-asset limit; the first part opens the
 whole model.
 
 Copyright for the model weights: Google LLC. Quantisation: Unsloth.
+
+The ear (release ear-v1) is Cnam-LMSSC/wav2vec2-french-phonemizer
+(https://huggingface.co/Cnam-LMSSC/wav2vec2-french-phonemizer, MIT licence,
+a fine-tune of facebook/wav2vec2-base-fr-voxpopuli-v2 on Common Voice 13
+French), exported to ONNX and quantised to int8 without other changes.
